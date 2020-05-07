@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/style.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+  	
+  	  <img src="quiz.jpg" alt="img" width="70%" height="720px" class="image">
+    <div class="intro container">
+      <h3>Test your brains!</h3>
+      <button type="button" name="startQuiz" class="btn btn-lg" id="startQuizBtn">Start Quiz</button>
+    </div>
+
+    <div class="preQuiz">
+      <p></p>
+    </div>
+    <div class="round1"><p></p></div>
+    <div class="progressBar"></div>
+    <div class="container question-box">
+      <h1></h1>
+      <h2></h2>
+      <img src="" alt="">
+    </div>
+    <div class="container options">
+      <div class="row">
+        <div class="col-md-4 offset-md-4" id="option">
+          <button type="button" class="btn btn-block" id="option1">option1</button>
+        </div>
+        <div class="col-md-4 col-pl-2" id="option">
+          <button type="button" class="btn btn-block" id="option2">option2</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 offset-md-4" id="option">
+          <button type="button" class="btn btn-block" id="option3">option3</button>
+        </div>
+        <div class="col-md-4 col-pl-2" id="option">
+          <button type="button" class="btn btn-block" id="option4">option4</button>
+        </div>
+      </div>
+    </div>
+    <div class="result container">
+      <h1>RESULT</h1>
+      <p>You got <span id="score"></span> answers correct!</p>
+      <p class="do"></p>
+    </div>
+  </body>
+</html>
